@@ -1,0 +1,78 @@
+[data-theme="wsis"] {
+  color-scheme: dark;
+
+  --color-base-100: #121B21;
+  --color-base-200: #1C2B34;
+  --color-base-300: #2F4858;
+  --color-base-content: #ffffff;
+  
+  --color-primary: #00766b;
+  --color-primary-content: white;
+  
+  --color-brand: #00766b;
+ 
+  --color-secondary: #2599eb;
+  --color-secondary-content: #fff;
+
+  --color-accent: #006392;
+  --color-accent-content: #ffffff;
+
+  --color-neutral: ##384b42;
+  --color-neutral-content: #ffffff;
+
+  --color-info: #0066ff; 
+  --color-success: #00ff5e;
+  --color-warning: #ff8800; 
+  --color-error: #ff0033;
+
+  --color-info-content: #ffffff;
+  --color-success-content: #000000;
+  --color-warning-content: #000000;
+  --color-error-content: #ffffff;
+
+  --color-focus: #ff00ff; 
+  --color-glow: #39ff14;
+
+
+
+}
+.bg-wsis {
+  background: linear-gradient(
+    135deg,
+    hsla(175, 100%, 13%, 1) 50%,
+    hsla(187, 100%, 18%, 1) 100%
+  );
+}
+
+.bg-wsis-rl {
+  background: linear-gradient(
+    225deg,
+    hsla(176, 100%, 3%, 1) 0%,
+    hsla(194, 100%, 14%, 1) 100%
+  );
+}
+
+.bg_card_wsis {
+  background: linear-gradient(
+    225deg,
+    rgba(0, 88, 55, 0.2) 0%,
+    rgb(255, 255, 255, 5%) 100%
+  );
+  
+  border-radius: 20px;
+}
+
+
+.bg_modal_palestrante {
+  background: rgba(0, 118, 107, 75%);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px); 
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+

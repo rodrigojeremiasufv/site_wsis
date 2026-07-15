@@ -1,0 +1,1483 @@
+<!DOCTYPE html>
+<html lang="en"  data-theme="wsis";>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WSIS - 2026</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+    <link href="theme.css" rel="stylesheet">
+</head>
+
+
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<body>
+
+
+
+
+<div class="=app-background">
+
+
+<!-- navbar -->
+  <div class="navbar bg-wsis shadow-sm sticky top-0 z-75">
+    <div class="flex-1">
+        <a href="/" class="btn btn-ghost p-2">
+            <img 
+                src="./assets/logo.png" 
+                alt="Logo"
+                class="h-10 w-auto"
+            >
+        </a>
+    </div>
+
+<!-- menu desktop -->
+    <div class="hidden lg:flex flex-none">
+        <ul class="menu menu-horizontal px-1">
+            <li><a href="#sobre">Sobre o Workshop</a></li>
+            <li><a href="#palestrantes">Palestrantes</a></li>
+            <li><a href="#programacao">Programação</a></li>
+            <li><a href="#minicursos">Minicursos</a></li>
+            <li><a href="#maratona">Maratona de programação</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#equipe">Equipe</a></li>
+            <li>
+                <a href="maintrack.html" class="btn btn-primary btn-sm">
+                    Main Track
+                </a>
+            </li>
+            <li>
+                <a href="link.com" class="btn btn-primary btn-sm">
+                    Se Inscrever
+                </a>
+            </li>
+        </ul>
+    </div>
+
+<!-- menu mobile -->
+    <div class="dropdown dropdown-end lg:hidden">
+        <div tabindex="0" role="button" class="btn btn-ghost">
+            <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                class="h-6 w-6" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor">
+                <path 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    stroke-width="2" 
+                    d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </div>
+
+        <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-50 mt-3 w-64 p-2 shadow">
+            <li><a href="#sobre">Sobre o Workshop</a></li>
+            <li><a href="#palestrantes">Palestrantes</a></li>
+            <li><a href="#programacao">Programação</a></li>
+            <li><a href="#minicursos">Minicursos</a></li>
+            <li><a href="#maratona">Maratona de programação</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#equipe">Equipe</a></li>
+
+            <li>
+                <a href="maintrack.html" class="text-primary">
+                    Main Track
+                </a>
+            </li>
+
+            <li>
+                <a href="link.com" class="text-primary btn-sm">
+                    Se Inscrever
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- hero -->
+<div class="hero min-h-[600px] relative overflow-hidden">
+  <div 
+    class="absolute -inset-4 bg-cover bg-center blur-sm scale-105"
+    style="background-image: url('assets/wsis_small.png');"
+></div>
+    <div class="absolute inset-0 bg-black/70"></div>
+<div class="hero-content text-center relative z-10">
+    <div class="max-w-md">
+        <img 
+            src="./assets/logotipo.png"
+            class="mx-auto"
+        >
+        <h2 class="mt-4 text-xl md:text-2xl font-medium text-white">
+          XVII Workshop de Sistemas de Informação
+        </h2>
+        <div class="mt-6 space-y-3 text-white">
+            <div class="flex items-center justify-center gap-3">
+                <i data-lucide="map-pin" class="w-5 h-5"></i>
+                <span class="text-sm md:text-base">
+                  Universidade Federal de Viçosa - Campus Rio Paranaíba
+                </span>
+            </div>
+            <div class="flex items-center justify-center gap-3">
+                <i data-lucide="calendar" class="w-5 h-5"></i>
+                <span class="text-sm md:text-base">
+                  05, 06 e 07 de Outubro, 2026
+                </span>
+            </div>
+        </div>
+        <button class="btn btn-primary mt-6">
+        Inscrição
+        </button>
+    </div>
+</div>
+
+</div>
+
+
+<!-- Sobre -->
+<section id="sobre" class="bg-wsis py-12 px-6 lg:px-12">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+
+    <div class="space-y-4">
+      <h2 class="text-3xl lg:text-4xl font-bold text-base-content">
+        Sobre o Workshop
+      </h2>
+
+      <p class="text-base-content/70 text-lg leading-relaxed">
+
+O Workshop de Sistemas de Informação (WSIS) é um evento realizado anualmente, reunindo estudantes, professores, pesquisadores e profissionais das áreas de computação, inovação e tecnologia.
+Em 2026, o WSIS chega à sua 17ª edição, sendo realizado presencialmente entre os dias 05 e 07 de Outubro de 2026, no campus da UFV em Rio Paranaíba, Minas Gerais. A programação contará com palestras, minicursos, sessões técnicas e painéis de discussão.
+      </p>
+    </div>
+    <!-- Video -->
+    <div class="w-full">
+      <div class="aspect-video rounded-xl overflow-hidden shadow-xl">
+        <iframe
+          class="w-full h-full"
+          src="https://www.youtube.com/embed/aAImyhOII6M"
+          title="YouTube video"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<!-- Onde e quando -->
+<section id="local" class="bg-wsis-rl py-20 px-6 lg:px-12">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+
+    <!-- mapa -->
+    <div class="w-full">
+      <div class="aspect-video rounded-xl overflow-hidden shadow-xl">
+        <iframe
+          class="w-full h-full"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235.46948668921635!2d-46.223400775263734!3d-19.21651470799863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b1f927facc4eef%3A0x18021565686278b7!2sLaborat%C3%B3rio%20de%20Ensino%20-%20LAE!5e0!3m2!1spt-BR!2sbr!4v1783818094431!5m2!1spt-BR!2sbr"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+
+<div class="card bg_card_wsis shadow-xl h-full">
+  <div class="card-body justify-center p-8">
+    <h2 class="card-title text-3xl">Onde e quando?</h2>
+
+    <div class="space-y-4 mt-4">
+      <div class="text-base-content/70 text-lg leading-relaxed">
+        <p class="font-semibold">Local</p>
+        <p>Universidade Federal de Viçosa - Campus Rio Paranaíba</p>
+        <p>Rodovia BR 230, Km 7, Rio Paranaíba - MG</p>
+        <p>CEP: 3810-000</p>
+      </div>
+
+      <div class="text-base-content/70 text-lg leading-relaxed">
+        <p class="font-semibold">Data</p>
+        <p>5, 6 e 7 de Outubro</p>
+      </div>
+
+      <div class="text-base-content/70 text-lg leading-relaxed">
+        <p class="font-semibold">Horário</p>
+        <p>09:00 às 23:00</p>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section id="palestrantes" class="py-20 px-6 bg-wsis">
+  <div class="container mx-auto px-4 lg:px-8">
+
+
+      <h2 class="text-3xl font-bold text-center mb-6">
+      Palestrantes e Ministrantes
+    </h2>
+
+
+    <p class="text-base-content/70 text-lg text-center max-w-4xl mx-auto mb-12 leading-relaxed">
+
+O WSIS 2026 reúne um grupo de palestrantes e ministrantes com experiência acadêmica e profissional em diferentes áreas da tecnologia. Ao longo da programação, esses convidados compartilharão conhecimentos, experiências e perspectivas por meio de palestras e minicursos, promovendo a integração entre ensino, pesquisa, inovação e mercado. Conheça os profissionais que fazem parte desta edição do Workshop:
+
+
+
+
+
+
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+
+<div class="card bg_card_wsis shadow-xl border border-base-200 overflow-hidden">
+  <figure class="p-4 pb-0">
+    <img
+      src="assets/speakers/mauricio.jpeg"
+      alt="Prof. Dr. Mauricio Cunha Escarpinati" 
+      class="rounded-xl w-full object-cover aspect-square" />
+  </figure>
+  
+  <div class="card-body p-5">
+    <div class="flex items-center justify-between gap-3 mb-1">
+      <h2 class="card-title text-lg font-bold line-clamp-1">Prof. Dr. Mauricio Cunha Escarpinati</h2>
+      
+      <button onclick="speaker_modal_1.showModal()" class="btn btn-circle btn-primary btn-sm shrink-0" aria-label="View Profile">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+      </button>
+    </div>
+    
+    <p class="text-sm text-base-content/70"> FACOM - UFU </p>
+  </div>
+</div>
+
+<div class="card bg_card_wsis shadow-xl border border-base-200 overflow-hidden">
+  <figure class="p-4 pb-0">
+    <img
+      src="assets/speakers/murilo.jpeg"
+      alt="Prof. Dr. Murilo Coelho Naldi" 
+      class="rounded-xl w-full object-cover aspect-square" />
+  </figure>
+  
+  <div class="card-body p-5">
+    <div class="flex items-center justify-between gap-3 mb-1">
+      <h2 class="card-title text-lg font-bold line-clamp-1">Prof. Dr. Murilo Coelho Naldi</h2>
+      
+      <button onclick="speaker_modal_2.showModal()" class="btn btn-circle btn-primary btn-sm shrink-0" aria-label="View Profile">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+      </button>
+    </div>
+    
+    <p class="text-sm text-base-content/70"> DC - UFSCar </p>
+  </div>
+</div>
+
+<div class="card bg_card_wsis shadow-xl border border-base-200 overflow-hidden">
+  <figure class="p-4 pb-0">
+    <img
+      src="assets/speakers/luciane.png"
+      alt="Me. Luciane Cristina Pinheiro" 
+      class="rounded-xl w-full object-cover aspect-square" />
+  </figure>
+  
+  <div class="card-body p-5">
+    <div class="flex items-center justify-between gap-3 mb-1">
+      <h2 class="card-title text-lg font-bold line-clamp-1">Me. Luciane Cristina Pinheiro</h2>
+      
+      <button onclick="speaker_modal_3.showModal()" class="btn btn-circle btn-primary btn-sm shrink-0" aria-label="View Profile">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+      </button>
+    </div>
+    
+    <p class="text-sm text-base-content/70"> Simepar </p>
+  </div>
+</div>
+
+<div class="card bg_card_wsis shadow-xl border border-base-200 overflow-hidden">
+  <figure class="p-4 pb-0">
+    <img
+      src="assets/speakers/guilherme.jpeg"
+      alt="Dr. Guilherme Oliveira Campos" 
+      class="rounded-xl w-full object-cover aspect-square" />
+  </figure>
+  
+  <div class="card-body p-5">
+    <div class="flex items-center justify-between gap-3 mb-1">
+      <h2 class="card-title text-lg font-bold line-clamp-1">Dr. Guilherme Oliveira Campos</h2>
+      
+      <button onclick="speaker_modal_4.showModal()" class="btn btn-circle btn-primary btn-sm shrink-0" aria-label="View Profile">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+      </button>
+    </div>
+    
+    <p class="text-sm text-base-content/70"> Big Data </p>
+  </div>
+</div>
+
+<div class="card bg_card_wsis shadow-xl border border-base-200 overflow-hidden">
+  <figure class="p-4 pb-0">
+    <img
+      src="assets/speakers/fernando.jpeg"
+      alt="Me. Fernando Rocha Moreira" 
+      class="rounded-xl w-full object-cover aspect-square" />
+  </figure>
+  
+  <div class="card-body p-5">
+    <div class="flex items-center justify-between gap-3 mb-1">
+      <h2 class="card-title text-lg font-bold line-clamp-1">Me. Fernando Rocha Moreira</h2>
+      
+      <button onclick="speaker_modal_5.showModal()" class="btn btn-circle btn-primary btn-sm shrink-0" aria-label="View Profile">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+      </button>
+    </div>
+    
+    <p class="text-sm text-base-content/70"> Banco do Brasil </p>
+  </div>
+</div>
+
+<div class="card bg_card_wsis shadow-xl border border-base-200 overflow-hidden">
+  <figure class="p-4 pb-0">
+    <img
+      src="assets/speakers/rafael.jpeg"
+      alt="Me. Rafael Marinho e Silva" 
+      class="rounded-xl w-full object-cover aspect-square" />
+  </figure>
+  
+  <div class="card-body p-5">
+    <div class="flex items-center justify-between gap-3 mb-1">
+      <h2 class="card-title text-lg font-bold line-clamp-1">Me. Rafael Marinho e Silva</h2>
+      
+      <button onclick="speaker_modal_6.showModal()" class="btn btn-circle btn-primary btn-sm shrink-0" aria-label="View Profile">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+      </button>
+    </div>
+    
+    <p class="text-sm text-base-content/70"> Unipam </p>
+  </div>
+</div>
+
+<div class="card bg_card_wsis shadow-xl border border-base-200 overflow-hidden">
+  <figure class="p-4 pb-0">
+    <img
+      src="assets/speakers/julia.jpeg"
+      alt="Júlia Mendonça Silva" 
+      class="rounded-xl w-full object-cover aspect-square" />
+  </figure>
+  
+  <div class="card-body p-5">
+    <div class="flex items-center justify-between gap-3 mb-1">
+      <h2 class="card-title text-lg font-bold line-clamp-1">Júlia Mendonça Silva</h2>
+      
+      <button onclick="speaker_modal_7.showModal()" class="btn btn-circle btn-primary btn-sm shrink-0" aria-label="View Profile">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+      </button>
+    </div>
+    
+    <p class="text-sm text-base-content/70"> Chungbuk National University - Coreia do Sul </p>
+  </div>
+</div>
+
+<!-- Modais -->
+<dialog id="speaker_modal_1" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box w-full sm:max-w-md p-6 flex flex-col items-center bg_modal_palestrante text-center relative max-h-[85vh] overflow-y-auto rounded-t-2xl sm:rounded-2xl">
+      <form method="dialog">
+      <button class="btn btn-sm btn-circle btn-ghost absolute right-3 top-3" aria-label="Close">✕</button>
+    </form>
+    <div class="w-full max-w-[160px] aspect-square mb-4 shrink-0">
+      <img 
+        src="assets/speakers/mauricio.jpeg" 
+        alt="Prof. Dr. Mauricio Cunha Escarpinati" 
+        class="rounded-xl w-full h-full object-cover shadow-md" />
+    </div>
+
+    <h3 class="font-bold text-xl mb-1 px-4">Prof. Dr. Mauricio Cunha Escarpinati</h3>
+    <p class="text-sm font-medium text-primary mb-4">FACOM - UFU</p>
+    
+    <div class="text-sm text-base-content/80 text-left sm:text-center w-full mb-6 leading-relaxed">
+É Professor Associado da Faculdade de Computação da Universidade Federal de 
+Uberlândia (FACOM - UFU), foi Diretor Acadêmico da Faculdade da mesma unidade e, 
+atualmente, é Diretor do CTIC-UFU. Também atua como docente permanente do 
+Programa de Pós-Graduação em Ciência da Computação da mesma instituição. Desde 
+2011 atua como consultor do INEP em processos de avaliação de cursos de graduação. 
+Quanto à sua formação, possui graduação em matemática pela Universidade Federal de 
+São Carlos (1999), mestrado (2002) e doutorado (2007) pelo Departamento de Engenharia 
+Elétrica da Escola de Engenharia de São Carlos - EESC/USP. No campo da pesquisa, 
+possui experiência como pesquisador em processamento digital de imagens e em 
+reconhecimento de padrões. No momento, concentra suas pesquisas em aplicações de 
+processamento digital de imagens aéreas obtidas por VANTs, voltadas à agricultura. Na 
+área educacional, tem ministrado disciplinas em cursos de Engenharia, Bioinformática, 
+Sistemas de Informação e Ciência da Computação, como Computação Gráfica, 
+Processamento de Imagens, Linguagem de Programação e Pesquisa Operacional. Como 
+pesquisador, possui interesses na área de Processamento Digital de Imagens, 
+Computação Gráfica e Informática Médica.
+</div>
+
+
+  <div class="flex justify-center items-center gap-2 w-full border-t border-base-200 pt-4 mt-auto">
+      <a href="http://lattes.cnpq.br/5939941255055989" class="btn btn-sm btn-ghost flex-1 gap-2" aria-label="Currículo Lattes">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flask-conical"><path d="M10 2v7.31"/><path d="M14 9.3V2"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/><path d="M5.52 16h12.96"/></svg>
+        <span>Lattes</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/mauricio-cunha-escarpinati-39692033" class="btn btn-sm btn-ghost flex-1 gap-2" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+        <span>LinkedIn</span>
+      </a>
+    </div>
+  </div>
+  <form method="dialog" class="modal-backdrop">
+    <button>fechar</button>
+  </form>
+</dialog>
+
+<dialog id="speaker_modal_2" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box w-full sm:max-w-md p-6 flex flex-col items-center bg_modal_palestrante text-center relative max-h-[85vh] overflow-y-auto rounded-t-2xl sm:rounded-2xl">
+    
+    <form method="dialog">
+      <button class="btn btn-sm btn-circle btn-ghost absolute right-3 top-3" aria-label="Close">✕</button>
+    </form>
+
+    <div class="w-full max-w-[160px] aspect-square mb-4 shrink-0">
+      <img 
+        src="assets/speakers/murilo.jpeg" 
+        alt="Prof. Dr. Murilo Coelho Naldi" 
+        class="rounded-xl w-full h-full object-cover shadow-md" />
+    </div>
+
+    <h3 class="font-bold text-xl mb-1 px-4">Prof. Dr. Murilo Coelho Naldi</h3>
+    <p class="text-sm font-medium text-primary mb-4">DC - UFSCar</p>
+    
+    <div class="text-sm text-base-content/80 text-left sm:text-center w-full mb-6 leading-relaxed">
+Possui graduação em Bacharelado em Ciências da Computação pela Universidade de São 
+Paulo (2004), mestrado em Ciências da Computação e Matemática Computacional pela 
+Universidade de São Paulo (2006) e doutorado em Ciências da Computação e Matemática 
+Computacional pela Universidade de São Paulo (2011). Entre 2020 e 2022, esteve em 
+período sabático, como pesquisador/professor visitante, no Departamento de Ciência de 
+Computação da Universidade de Alberta, em Edmonton, AB, Canadá, Participou de 
+diversos projetos de pesquisas financiados por agências de fomento nacionais e estaduais. 
+Atualmente é professor Associado da Universidade Federal de São Carlos e faz parte do 
+corpo de orientadores do Programa de Pós-Graduação em Ciências da Computação do 
+Departamento de Computação. Tem experiência na área de ciência da Computação, com 
+ênfase em Mineração de Dados, atuando principalmente nos seguintes temas: 
+Aprendizado de Máquina, Agrupamento de Dados, Computação Paralela, Distribuída e 
+Evolutiva.
+</div>
+
+    <div class="flex justify-center items-center gap-2 w-full border-t border-base-200 pt-4 mt-auto">
+      <a href="http://lattes.cnpq.br/0573662728816861" class="btn btn-sm btn-ghost flex-1 gap-2" aria-label="Currículo Lattes">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flask-conical"><path d="M10 2v7.31"/><path d="M14 9.3V2"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/><path d="M5.52 16h12.96"/></svg>
+        <span>Lattes</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/murilo-naldi-375244210/" class="btn btn-sm btn-ghost flex-1 gap-2" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+        <span>LinkedIn</span>
+      </a>
+    </div>
+  </div>
+  <form method="dialog" class="modal-backdrop">
+    <button>fechar</button>
+  </form>
+</dialog>
+
+<dialog id="speaker_modal_3" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box w-full sm:max-w-md p-6 flex flex-col items-center bg_modal_palestrante text-center relative max-h-[85vh] overflow-y-auto rounded-t-2xl sm:rounded-2xl">
+    
+    <form method="dialog">
+      <button class="btn btn-sm btn-circle btn-ghost absolute right-3 top-3" aria-label="Close">✕</button>
+    </form>
+
+    <div class="w-full max-w-[160px] aspect-square mb-4 shrink-0">
+      <img 
+        src="assets/speakers/luciane.png" 
+        alt="Me. Luciane Cristina Pinheiro" 
+        class="rounded-xl w-full h-full object-cover shadow-md" />
+    </div>
+
+    <h3 class="font-bold text-xl mb-1 px-4">Me. Luciane Cristina Pinheiro</h3>
+    <p class="text-sm font-medium text-primary mb-4">Simepar</p>
+    
+    <div class="text-sm text-base-content/80 text-left sm:text-center w-full mb-6 leading-relaxed">
+Possui graduação em Bacharelado em Informática pela Universidade Estadual de Ponta 
+Grossa, mestrado em Banco de Dados pela UFPR e MBA em Tecnologia para Negócios: 
+AI, Data Science e Big Data. Analista de Sistemas pelo Instituto Tecnológico Simepar há 
+mais de 20 anos, com foco em bancos de dados geoespaciais, Luciane atua como 
+responsável técnica de projetos na área ambiental.
+</div>
+
+    <div class="flex justify-center items-center gap-2 w-full border-t border-base-200 pt-4 mt-auto">
+      <a href="http://lattes.cnpq.br/0129242847750050" class="btn btn-sm btn-ghost flex-1 gap-2" aria-label="Currículo Lattes">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flask-conical"><path d="M10 2v7.31"/><path d="M14 9.3V2"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/><path d="M5.52 16h12.96"/></svg>
+        <span>Lattes</span>
+      </a>
+      
+      <a href="https://br.linkedin.com/in/luciane-c-pinheiro-40624333" class="btn btn-sm btn-ghost flex-1 gap-2" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+        <span>LinkedIn</span>
+      </a>
+    </div>
+  </div>
+  <form method="dialog" class="modal-backdrop">
+    <button>fechar</button>
+  </form>
+</dialog>
+
+<dialog id="speaker_modal_4" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box w-full sm:max-w-md p-6 flex flex-col items-center bg_modal_palestrante text-center relative max-h-[85vh] overflow-y-auto rounded-t-2xl sm:rounded-2xl">
+    
+    <form method="dialog">
+      <button class="btn btn-sm btn-circle btn-ghost absolute right-3 top-3" aria-label="Close">✕</button>
+    </form>
+
+    <div class="w-full max-w-[160px] aspect-square mb-4 shrink-0">
+      <img 
+        src="assets/speakers/guilherme.jpeg" 
+        alt="Dr. Guilherme Oliveira Campos" 
+        class="rounded-xl w-full h-full object-cover shadow-md" />
+    </div>
+
+    <h3 class="font-bold text-xl mb-1 px-4">Dr. Guilherme Oliveira Campos</h3>
+    <p class="text-sm font-medium text-primary mb-4">Big Data</p>
+    
+    <div class="text-sm text-base-content/80 text-left sm:text-center w-full mb-6 leading-relaxed">
+Guilherme Oliveira Campos é Doutor em Ciência da Computação pela UFMG (com período 
+de pesquisa na University of Southern Denmark), Mestre pela USP e Graduado pela UFV 
+com sólida formação em aprendizado de máquina e ênfase em detecção de anomalias. Ao 
+longo da carreira acadêmica, contribuiu para pesquisas relevantes em outlier detection, 
+ensembles e análise de grafos, com publicações em veículos internacionais de destaque. 
+Atualmente, é sócio da Big Data, onde está desde agosto de 2019, atuando como gestor 
+de times de dados e liderando o desenvolvimento e a evolução de soluções de Inteligência 
+Artificial aplicadas ao negócio. Seu trabalho tem foco em sistemas de recomendação, 
+previsão de demanda e otimização de decisões em larga escala, conectando modelagem 
+avançada à entrega de produtos robustos e escaláveis.
+</div>
+
+    <div class="flex justify-center items-center gap-2 w-full border-t border-base-200 pt-4 mt-auto">
+      <a href="http://lattes.cnpq.br/8042578728457946" class="btn btn-sm btn-ghost flex-1 gap-2" aria-label="Currículo Lattes">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flask-conical"><path d="M10 2v7.31"/><path d="M14 9.3V2"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/><path d="M5.52 16h12.96"/></svg>
+        <span>Lattes</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/guilherme-oliveira-campos-833906166/" class="btn btn-sm btn-ghost flex-1 gap-2" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+        <span>LinkedIn</span>
+      </a>
+    </div>
+  </div>
+  <form method="dialog" class="modal-backdrop">
+    <button>fechar</button>
+  </form>
+</dialog>
+
+<dialog id="speaker_modal_5" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box w-full sm:max-w-md p-6 flex flex-col items-center bg_modal_palestrante text-center relative max-h-[85vh] overflow-y-auto rounded-t-2xl sm:rounded-2xl">
+    
+    <form method="dialog">
+      <button class="btn btn-sm btn-circle btn-ghost absolute right-3 top-3" aria-label="Close">✕</button>
+    </form>
+
+    <div class="w-full max-w-[160px] aspect-square mb-4 shrink-0">
+      <img 
+        src="assets/speakers/fernando.jpeg" 
+        alt="Me. Fernando Rocha Moreira" 
+        class="rounded-xl w-full h-full object-cover shadow-md" />
+    </div>
+
+    <h3 class="font-bold text-xl mb-1 px-4">Me. Fernando Rocha Moreira</h3>
+    <p class="text-sm font-medium text-primary mb-4">Banco do Brasil</p>
+    
+    <div class="text-sm text-base-content/80 text-left sm:text-center w-full mb-6 leading-relaxed">
+Fernando Rocha Moreira é Mestre em Engenharia Elétrica, com ênfase em Segurança 
+Cibernética, pela Universidade de Brasília (UnB). Possui MBA em Gestão de Projetos pela 
+Universidade de São Paulo (USP) e pós-graduação em Gestão de Tecnologia da 
+Informação pela Faculdade Internacional Signorelli. É graduado em Sistemas de 
+Informação pela Universidade Federal de Viçosa (UFV). Atua como Arquiteto de Soluções 
+no Banco do Brasil, com foco em iniciativas voltadas à rede de agências externas. Possui 
+experiência acadêmica como professor colaborador na Universidade de Brasília, na área 
+de Segurança da Informação. Detém certificações relevantes, incluindo ISO/IEC 27001, 
+LGPDF, Proteção de dados voltadas a LGPD e Scrum Foundation, com atuação alinhada 
+às melhores práticas de governança, segurança e proteção de dados. Seus interesses de 
+pesquisa concentram-se na aplicação de métodos multicritério para apoio à tomada de 
+decisão, especialmente em contextos de tecnologia da informação e gestão de riscos.
+</div>
+
+    <div class="flex justify-center items-center gap-2 w-full border-t border-base-200 pt-4 mt-auto">
+      <a href="http://lattes.cnpq.br/4436285232983225" class="btn btn-sm btn-ghost flex-1 gap-2" aria-label="Currículo Lattes">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flask-conical"><path d="M10 2v7.31"/><path d="M14 9.3V2"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/><path d="M5.52 16h12.96"/></svg>
+        <span>Lattes</span>
+      </a>
+      
+      <a href="https://br.linkedin.com/in/fernando-rocha-moreira-1a676b236" class="btn btn-sm btn-ghost flex-1 gap-2" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+        <span>LinkedIn</span>
+      </a>
+    </div>
+  </div>
+  <form method="dialog" class="modal-backdrop">
+    <button>fechar</button>
+  </form>
+</dialog>
+
+<dialog id="speaker_modal_6" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box w-full sm:max-w-md p-6 flex flex-col items-center bg_modal_palestrante text-center relative max-h-[85vh] overflow-y-auto rounded-t-2xl sm:rounded-2xl">
+    
+    <form method="dialog">
+      <button class="btn btn-sm btn-circle btn-ghost absolute right-3 top-3" aria-label="Close">✕</button>
+    </form>
+
+    <div class="w-full max-w-[160px] aspect-square mb-4 shrink-0">
+      <img 
+        src="assets/speakers/rafael.jpeg" 
+        alt="Me. Rafael Marinho e Silva" 
+        class="rounded-xl w-full h-full object-cover shadow-md" />
+    </div>
+
+    <h3 class="font-bold text-xl mb-1 px-4">Me. Rafael Marinho e Silva</h3>
+    <p class="text-sm font-medium text-primary mb-4">Unipam</p>
+    
+    <div class="text-sm text-base-content/80 text-left sm:text-center w-full mb-6 leading-relaxed">
+Graduado em Sistemas de Informação pela Universidade Federal de Viçosa (UFV). Possui 
+especialização em Redes de Computadores e Segurança de Sistemas pela Universidade 
+Federal de Goiás, UFG, e mestrado em Ciência da Computação pela Universidade Federal 
+de Uberlândia, UFU. Atuou na área educacional como professor PALIE/Elo Técnico no 
+Colégio Tiradentes da Polícia Militar de Patos de Minas, CTPM, e como professor e 
+coordenador do curso técnico de Informática para Internet na Escola Estadual Professor 
+Antônio Dias Maciel, em Patos de Minas. Também ministrou cursos para o Serviço 
+Nacional de Aprendizagem Comercial, SENAC Minas, e atualmente exerce a docência no 
+curso de Sistemas de Informação do UNIPAM.​
+</div>
+
+    <div class="flex justify-center items-center gap-2 w-full border-t border-base-200 pt-4 mt-auto">
+      <a href="http://lattes.cnpq.br/3190850453874290" class="btn btn-sm btn-ghost flex-1 gap-2" aria-label="Currículo Lattes">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flask-conical"><path d="M10 2v7.31"/><path d="M14 9.3V2"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/><path d="M5.52 16h12.96"/></svg>
+        <span>Lattes</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/rafaelmarinhosilva/" class="btn btn-sm btn-ghost flex-1 gap-2" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+        <span>LinkedIn</span>
+      </a>
+    </div>
+  </div>
+    <form method="dialog" class="modal-backdrop">
+    <button>fechar</button>
+  </form>
+</dialog>
+
+<dialog id="speaker_modal_7" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box w-full sm:max-w-md p-6 flex flex-col items-center bg_modal_palestrante text-center relative max-h-[85vh] overflow-y-auto rounded-t-2xl sm:rounded-2xl">
+        <form method="dialog">
+      <button class="btn btn-sm btn-circle btn-ghost absolute right-3 top-3" aria-label="Close">✕</button>
+    </form>
+
+    <div class="w-full max-w-[160px] aspect-square mb-4 shrink-0">
+      <img 
+        src="assets/speakers/julia.jpeg" 
+        alt="Júlia Mendonça Silva" 
+        class="rounded-xl w-full h-full object-cover shadow-md" />
+    </div>
+
+    <h3 class="font-bold text-xl mb-1 px-4">Júlia Mendonça Silva</h3>
+    <p class="text-sm font-medium text-primary mb-4">Chungbuk National University - Coreia do Sul</p>
+    
+    <div class="text-sm text-base-content/80 text-left sm:text-center w-full mb-6 leading-relaxed">
+Estudante do programa combinado de Mestrado e Doutorado em Big Data na Chungbuk 
+National University, na Coreia do Sul, com bolsa do G-Cruit. Desenvolve pesquisas 
+voltadas à análise e ao processamento de grandes volumes de dados, com foco em 
+aplicações que conectam tecnologia, impacto social e inovação. Formada em Sistemas de 
+Informação pela Universidade Federal de Viçosa, onde recebeu a Medalha Presidente 
+Bernardes pelo melhor desempenho acadêmico do curso. Possui experiência com Python, 
+SQL, Análises de Pontos de Função (APF), engenharia de requisitos e análise de dados, 
+além de interesse contínuo em expandir conhecimentos em ciência e engenharia de 
+dados.
+</div>
+
+    <div class="flex justify-center items-center gap-2 w-full border-t border-base-200 pt-4 mt-auto">
+      <a href="http://lattes.cnpq.br/7888552724164180" class="btn btn-sm btn-ghost flex-1 gap-2" aria-label="Currículo Lattes">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flask-conical"><path d="M10 2v7.31"/><path d="M14 9.3V2"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/><path d="M5.52 16h12.96"/></svg>
+        <span>Lattes</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/julia-mendonca/" class="btn btn-sm btn-ghost flex-1 gap-2" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+        <span>LinkedIn</span>
+      </a>
+    </div>
+  </div>
+  
+  <form method="dialog" class="modal-backdrop">
+    <button>fechar</button>
+  </form>
+</dialog>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section id="programacao" class="bg-wsis-rl py-20 lg:px-12"  >
+  <div class="grid grid-cols-1 lg:grid-cols-1 gap-8 items-center">
+    <div>
+      <h1 class="text-3xl font-bold text-center mb-6">
+        Programação do Evento
+      </h1>
+
+      <div class="tabs tabs-boxed justify-center mb-6">
+
+
+        <!-- TAB 1 -->
+        <input
+          type="radio"
+          name="schedule_tabs"
+          class="tab"
+          aria-label="Primeiro Dia"
+          checked
+        />
+          <div class="tab-content p-4 md:p-8 m-2 md:m-10">
+          <div class="card shadow bg_card_wsis">
+            <div class="card-body p-8">
+              <h2 class="card-title">5 de Outubro</h2>
+
+              <ul class="space-y-4">
+                <li>
+                  <h3 class="text-lg font-bold">08:30 - 10:00 → Credenciamento</h3>
+                  <p class="text-sm text-base-content/70">
+                    Hall do PVA
+                  </p>
+                </li>
+
+
+                <li>
+                  <h3 class="text-lg font-bold">08:30 - 10:00 → Minicurso 1</h3>
+                  <p class="text-sm text-base-content/70">
+                    A ser definido
+                  </p>
+                </li>
+
+                <li>
+                  <h3 class="text-lg font-bold">10:00 - 10:30 → Coffee-Break</h3>
+                  <p class="text-sm text-base-content/70">
+                  </p>
+                </li>
+
+
+                <li>
+                  <h3 class="text-lg font-bold">10:30 - 12:00 → Minicurso 1</h3>
+                  <p class="text-sm text-base-content/70">
+                    A ser definido
+                  </p>
+                </li>
+
+                <li>
+                  <h3 class="text-lg font-bold">10:30 - 12:00 → Aquecimento maratona de programação</h3>
+                  <p class="text-sm text-base-content/70">
+                    Laboratório PVA226
+                  </p>
+                </li>
+
+                <li>
+                  <h3 class="text-lg font-bold">12:00 - 13:30 → Almoço</h3>
+                  <p class="text-sm text-base-content/70">
+                  </p>
+                </li>
+
+
+
+                <li>
+                  <h3 class="text-lg font-bold">14:00 - 15:30 → Exposição Lixo Eletrônico</h3>
+                  <p class="text-sm text-base-content/70"> Apresentação de trabalhos desenvolvidos por estudantes sobre a referida temática, sob a coordenação da Professora Dra. Adriana Zanella Martinhago.                  </p>
+                </li>
+
+              
+                  <li>
+                  <h3 class="text-lg font-bold">15:30 - 16:00 → Coffee-Break</h3>
+                  <p class="text-sm text-base-content/70">
+                  </p>
+                </li>
+
+
+                <li>
+                  <h3 class="text-lg font-bold">16:00 - 17:30 → Sessão Técnica 1</h3>
+                  <p class="text-sm text-base-content/70">
+                    Apresentação de trabalhos técnico-científicos em sessão oral. Chair: a definir
+                  </p>
+                </li>
+
+
+                <li>
+                  <h3 class="text-lg font-bold">17:30 - 19:00 → Intervalo</h3>
+                  <p class="text-sm text-base-content/70">
+                  </p>
+                </li>
+
+                <li>
+                  <h3 class="text-lg font-bold">19:00 - 19:30 → Cerimônia de abertura </h3>
+                  <p class="text-sm text-base-content/70">
+                    Cerimônia de abertura com a presença de autoridades.
+                  </p>
+                </li>
+
+                <li>
+                  <h3 class="text-lg font-bold">19:30 - 21:00 → Palestra 1 </h3>
+                  <p class="text-sm text-base-content/70">
+                    Palestrante: Prof. Dr. Murilo Coelho Naldi (DC/UFSCar)
+                  </p>
+                </li>
+
+
+                <li>
+                  <h3 class="text-lg font-bold">21:00 - 21:30 → Coffee-Break </h3>
+                  <p class="text-sm text-base-content/70">
+                  </p>
+                </li>
+                
+                
+                <li>
+                  <h3 class="text-lg font-bold">21:30 - 22:30 → Exposição Jogos Digitais na Educação </h3>
+                  <p class="text-sm text-base-content/70">
+                    Apresentação de trabalhos desenvolvidos por estudantes sobre a referida temática, sob a coordenação do Professor Dr. Pedro Moisés de Sousa.
+                  </p>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      
+      
+      
+      
+      <!-- TAB 2 -->
+        <input
+          type="radio"
+          name="schedule_tabs"
+          class="tab"
+          aria-label="Segundo Dia"
+          checked
+        />
+          <div class="tab-content p-4 md:p-8 m-2 md:m-10">
+          <div class="card shadow bg_card_wsis">
+            <div class="card-body p-8">
+              <h2 class="card-title">6 de Outubro</h2>
+
+             <ul class="space-y-4">
+                <li>
+                  <h3 class="text-lg font-bold">08:30 - 10:00 → Minicurso 2</h3>
+                  <p class="text-sm text-base-content/70">
+                    A ser definido
+                  </p>
+                </li>
+
+
+                <li>
+                  <h3 class="text-lg font-bold">08:30 - 10:00 → Maratona de Programação</h3>
+                  <p class="text-sm text-base-content/70">
+                  </p>
+                </li>
+
+                <li>
+                  <h3 class="text-lg font-bold">10:00 - 10:30 → Coffee-Break</h3>
+                  <p class="text-sm text-base-content/70">
+                  </p>
+                </li>
+
+
+                <li>
+                  <h3 class="text-lg font-bold">10:30 - 11:30 → Maratona de Programação</h3>
+                  <p class="text-sm text-base-content/70">
+                  </p>
+                </li>
+
+
+                <li>
+                  <h3 class="text-lg font-bold">10:30 - 11:30 → Minicurso 2</h3>
+                  <p class="text-sm text-base-content/70">
+                    A ser definido
+                  </p>
+                </li>
+
+
+  
+
+                <li>
+                  <h3 class="text-lg font-bold">11:30 - 14:00 → Almoço</h3>
+                  <p class="text-sm text-base-content/70">
+                  </p>
+                </li>
+
+
+                <li>
+                  <h3 class="text-lg font-bold">14:00 - 15:30 → Sessão Técnica 2</h3>
+                  <p class="text-sm text-base-content/70">
+                    Apresentação de trabalhos técnico-científicos em sessão oral. Chair: a definir
+                  </p>
+                </li>
+
+              
+                <li>
+                  <h3 class="text-lg font-bold">15:30 - 16:00 → Coffee-Break</h3>
+                  <p class="text-sm text-base-content/70">
+                  </p>
+                </li>
+
+
+                <li>
+                  <h3 class="text-lg font-bold">16:00 - 17:30 → Sessão Técnica 3</h3>
+                  <p class="text-sm text-base-content/70">
+                    Apresentação de trabalhos técnico-científicos em sessão oral. Chair: a definir
+                  </p>
+                </li>
+
+
+
+                <li>
+                  <h3 class="text-lg font-bold">17:30 - 19:00 → Intervalo </h3>
+                  <p class="text-sm text-base-content/70">
+                    Intervalo
+                  </p>
+                </li>
+
+                
+                <li>
+                  <h3 class="text-lg font-bold">19:00 - 20:30 → Palestra 2 </h3>
+                  <p class="text-sm text-base-content/70">
+                    Palestrante: Luciane Cristina Pinheiro (Simepar) Workshop Meninas++
+                  </p>
+                </li>
+
+
+                <li>
+                  <h3 class="text-lg font-bold">20:30 - 21:00 → Coffee-Break </h3>
+                  <p class="text-sm text-base-content/70">
+                  </p>
+
+
+                </li>
+                  <h3 class="text-lg font-bold">21:00 - 22:30 →  Mesa Redonda </h3>
+                  <p class="text-sm text-base-content/70">Mesa-redonda com profissionais renomados.​ Membros: Dr. Guilherme Oliveira Campos (BigData), Me. Fernando Rocha Moreira (Banco doBrasil), Me. Rafael Marinho e Silva (Unipam) e Júlia Mendonça Silva (Chungbuk National University)
+                  </p>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+      
+      <!-- TAB 3 -->
+     <input
+          type="radio"
+          name="schedule_tabs"
+          class="tab"
+          aria-label="Terceiro Dia"
+          checked
+        />
+          <div class="tab-content p-4 md:p-8 m-2 md:m-10">
+          <div class="card shadow bg_card_wsis">
+            <div class="card-body p-8">
+              <h2 class="card-title">7 de Outubro</h2>
+
+                           <ul class="space-y-4">
+                <li>
+                  <h3 class="text-lg font-bold">08:30 - 10:00 → Minicurso 3</h3>
+                  <p class="text-sm text-base-content/70">
+                    A ser definido
+                  </p>
+                </li>
+
+
+
+                <li>
+                  <h3 class="text-lg font-bold">10:00 - 10:30 → Coffee-Break</h3>
+                  <p class="text-sm text-base-content/70">
+                  </p>
+                </li>
+
+                <li>
+                  <h3 class="text-lg font-bold">10:30 - 12:00 → Minicurso 3</h3>
+                  <p class="text-sm text-base-content/70">
+                    A ser definido
+                  </p>
+                </li>
+
+
+
+                <li>
+                  <h3 class="text-lg font-bold">12:00 - 14:00 → Almoço</h3>
+                  <p class="text-sm text-base-content/70">
+                  </p>
+                </li>
+
+
+
+                <li>
+                  <h3 class="text-lg font-bold">14:00 - 15:30 → Exposição YouthMappers</h3>
+                  <p class="text-sm text-base-content/70">
+                    Apresentação de trabalhos desenvolvidos por estudantes sobre a referida temática, sob a coordenação do professor Dr. Rodrigo Smarzaro. </p>
+                </li>
+
+
+                <li>
+                  <h3 class="text-lg font-bold">15:30 - 16:00 → Coffee-Break </h3>
+                  <p class="text-sm text-base-content/70">
+                  </p>
+                </li>
+              
+                
+                <li>
+                  <h3 class="text-lg font-bold">16:00 - 17:30 → Sessão de Pôsteres</h3>
+                  <p class="text-sm text-base-content/70">
+                    Sessão de apresentação de artigos em formato de pôster. Chair: a definir
+                  </p>
+                </li>
+
+            
+                <li>
+                  <h3 class="text-lg font-bold">17:30 - 19:00 → Intervalo </h3>
+                  <p class="text-sm text-base-content/70">
+                  </p>
+                </li>
+
+
+                <li>
+                  <h3 class="text-lg font-bold">19:00 - 20:00 → Palestra 3</h3>
+                  <p class="text-sm text-base-content/70">
+                  Palestrante: Dr. Mauricio Cunha Escarpinati
+                  </p>
+                </li>
+
+
+                <li>
+                  <h3 class="text-lg font-bold">21:00 - 21:30 → Coffee-Break </h3>
+                  <p class="text-sm text-base-content/70">
+                  </p>
+                </li>
+
+
+                <li>
+                  <h3 class="text-lg font-bold">21:30 - 22:30 →  Cerimônia de encerramento WSIS </h3>
+                  <p class="text-sm text-base-content/70">Cerimônia de encerramento com apresentação dos números do evento, premiações diversas e lançamento do WSIS 2027.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="minicursos" class="py-20 bg-wsis-rl">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-6">
+      Minicursos
+    </h2>
+
+
+    <p class="text-base-content/70 text-lg text-center max-w-4xl mx-auto mb-12 leading-relaxed">
+
+      Na edição de 2026 da WSIS serão ofertados alguns minicursos em áreas diversas, fique atento(a) para mais informações em breve:
+    </p>
+
+    <div class="space-y-6">
+
+      <!-- Minicurso 1 -->
+      <div class="card bg_card_wsis shadow-md">
+        <div class="card-body md:flex md:flex-row md:justify-between md:items-center gap-6">
+          
+          <div class="text-left flex-1">
+            <h3 class="card-title text-2xl">
+              Minicurso 1
+            </h3>
+
+            <p class="mt-2">
+
+              Mais informações em breve, fique atento(a).
+            </p>
+
+            <div class="mt-4 space-y-1 text-sm">
+              <p><strong>Ministrante:</strong> a ser anunciado.</p>
+              <p><strong>Data:</strong> a ser anunciado.</p>
+              <p><strong>Horário:</strong> a ser anunciado.</p>
+              <p><strong>Local:</strong> a ser anunciado.</p>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <a href="#minicursos" class="btn btn-primary">
+              Inscreva-se em breve
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="card bg_card_wsis shadow-md">
+        <div class="card-body md:flex md:flex-row md:justify-between md:items-center gap-6">
+          
+          <div class="text-left flex-1">
+            <h3 class="card-title text-2xl">
+              Minicurso 2
+            </h3>
+
+            <p class="mt-2">
+
+              Mais informações em breve, fique atento(a).
+            </p>
+
+            <div class="mt-4 space-y-1 text-sm">
+              <p><strong>Ministrante:</strong> a ser anunciado.</p>
+              <p><strong>Data:</strong> a ser anunciado.</p>
+              <p><strong>Horário:</strong> a ser anunciado.</p>
+              <p><strong>Local:</strong> a ser anunciado.</p>
+            </div>
+          </div>
+
+          <div class="flex justify-center">
+            <a href="#minicursos" class="btn btn-primary">
+              Inscreva-se em breve
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      
+
+
+
+            <div class="card bg_card_wsis shadow-md">
+        <div class="card-body md:flex md:flex-row md:justify-between md:items-center gap-6">
+          
+          <div class="text-left flex-1">
+            <h3 class="card-title text-2xl">
+              Minicurso 3
+            </h3>
+
+            <p class="mt-2">
+
+              Mais informações em breve, fique atento(a).
+            </p>
+
+            <div class="mt-4 space-y-1 text-sm">
+              <p><strong>Ministrante:</strong> a ser anunciado.</p>
+              <p><strong>Data:</strong> a ser anunciado.</p>
+              <p><strong>Horário:</strong> a ser anunciado.</p>
+              <p><strong>Local:</strong> a ser anunciado.</p>
+            </div>
+          </div>
+
+          <div class="flex justify-center">
+            <a href="#minicursos" class="btn btn-primary">
+              Inscreva-se em breve
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+ 
+<section id="maratona" class="py-20 bg-wsis-rl">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-12">
+      Maratona de Programação
+    </h2>
+
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <!-- Imagem -->
+      <div class="flex justify-center">
+        <img
+          src="assets/maratona.jpg"
+          alt="Maratona de Programação"
+          class="rounded-xl shadow-xl max-w-md w-full"
+        />
+      </div>
+
+      <!-- Texto -->
+      <div class="text-left">
+        <h3 class="text-2xl font-semibold mb-4">
+          O que é a Maratona de Programação?
+        </h3>
+        <p class="text-lg text-base-content/70 leading-relaxed">
+          A Maratona de Programação é uma competição em equipes onde os
+          participantes resolvem desafios de lógica, algoritmos e estruturas de
+          dados em um tempo limitado. Além de estimular o raciocínio e o trabalho
+          em equipe, é uma excelente oportunidade para aprender, trocar
+          experiências e colocar em prática conhecimentos de programação.
+        </p>
+      </div>
+    </div>
+
+    <!-- Botão -->
+    <div class="mt-12 text-center">
+      <a href="#maratona" class="btn btn-primary btn-lg">
+        Inscreva-se em breve
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<section id="galeria" class="bg-wsis w-full py-20">
+  <div class="container mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold">
+        Galeria
+      </h2>
+
+      <p class="text-xl text-content-base/70 leading-relaxed mt-4 max-w-3xl mx-auto">
+        Confira alguns momentos da nossa galeria de fotos e veja mais detalhes do nosso trabalho.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
+      <img src="assets/galeria/1.jpg" alt="Galeria 1" class="h-full w-full object-cover rounded-box" />
+      <img src="assets/galeria/2.jpg" alt="Galeria 2" class="h-full w-full object-cover rounded-box" />
+      <img src="assets/galeria/3.jpg" alt="Galeria 3" class="h-full w-full object-cover rounded-box" />
+      <img src="assets/galeria/4.jpg" alt="Galeria 4" class="h-full w-full object-cover rounded-box" />
+      <img src="assets/galeria/5.jpg" alt="Galeria 5" class="h-full w-full object-cover rounded-box" />
+      <img src="assets/galeria/6.jpg" alt="Galeria 6" class="h-full w-full object-cover rounded-box" />
+      <img src="assets/galeria/7.jpg" alt="Galeria 7" class="h-full w-full object-cover rounded-box" />
+      <img src="assets/galeria/8.jpg" alt="Galeria 8" class="h-full w-full object-cover rounded-box" />
+      <img src="assets/galeria/9.jpg" alt="Galeria 9" class="h-full w-full object-cover rounded-box" />
+    </div>
+
+    <div class="text-center mt-12">
+      <a 
+        href="https://drive.google.com/drive/folders/1GJyIh-65U3ZJ-7znRofQx-cu_WVITItg?usp=sharing"
+        target="_blank"
+        class="btn btn-primary"
+      >
+        Ver mais fotos
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<section id="equipe" class="py-20 bg-wsis-rl">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-12">
+      Equipe organizadora
+    </h2>
+
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div class="card bg_card_wsis shadow-md">
+        <div class="card-body py-8">
+          <h3 class="card-title text-xl mb-4">Coordenação Geral:</h3>
+
+          <ul class="space-y-3">
+            <li class="flex items-center gap-3">
+              <i data-lucide="user" class="w-5 h-5 text-primary"></i>
+              <span>Leandro Henrique Furtado P. Silva</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card bg_card_wsis shadow-md">
+        <div class="card-body py-8">
+          <h3 class="card-title text-xl mb-4">Coordenadores do Comitê de Programa:</h3>
+
+          <ul class="space-y-3">
+            <li class="flex items-center gap-3">
+              <i data-lucide="user" class="w-5 h-5 text-primary"></i>
+              <span>Larissa Ferreira Rodrigues Moreira</span>
+            </li>
+
+            <li class="flex items-center gap-3">
+              <i data-lucide="user" class="w-5 h-5 text-primary"></i>
+              <span>João Fernando Mari</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card bg_card_wsis shadow-md">
+        <div class="card-body py-8">
+          <h3 class="card-title text-xl mb-4">Comitê Científico:</h3>
+
+          <ul class="space-y-3">
+            <li class="flex items-center gap-3">
+              <i data-lucide="user" class="w-5 h-5 text-primary"></i>
+              <span>Adriana Zanella Martinhago</span>
+            </li>
+
+            <li class="flex items-center gap-3">
+              <i data-lucide="user" class="w-5 h-5 text-primary"></i>
+              <span>Alan Diego Aurélio Carneiro</span>
+            </li>
+
+            <li class="flex items-center gap-3">
+              <i data-lucide="user" class="w-5 h-5 text-primary"></i>
+              <span>Guilherme Mendonça Freire</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i data-lucide="user" class="w-5 h-5 text-primary"></i>
+              <span>Iris Fabiana de Barcelos Tronto</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i data-lucide="user" class="w-5 h-5 text-primary"></i>
+              <span>José Maurício Costa</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i data-lucide="user" class="w-5 h-5 text-primary"></i>
+              <span>Liziane Santos Soares</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i data-lucide="user" class="w-5 h-5 text-primary"></i>
+              <span>Pedro Henrique A. Damaso</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i data-lucide="user" class="w-5 h-5 text-primary"></i>
+              <span>Rodrigo Moreira</span>
+            </li>
+          </ul>
+            <li class="flex items-center gap-3">
+              <i data-lucide="user" class="w-5 h-5 text-primary"></i>
+              <span>Pedro Moisés de Sousa</span>
+            </li>         
+          <li class="flex items-center gap-3">
+              <i data-lucide="user" class="w-5 h-5 text-primary"></i>
+              <span>Rodrigo Smarzaro</span>
+            </li>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<footer class="text-base-content pt-10 pb-6 px-6">
+  <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start mb-10">
+      <div class="flex flex-col gap-4">
+      <img src="assets/logotipo.png" alt="logotipo" class="h-12 w-auto object-contain self-start" />
+      
+      <p class="text-sm text-base-content/70 max-w-sm">
+        XVII Workshop de Sistemas de Informação
+      </p>
+
+      <div class="mt-2">
+        <span class="text-xs font-bold uppercase tracking-wider block mb-2 text-base-content/60">Organização:</span>
+        <a href="https://www.ufv.br/" class="inline-block hover:opacity-80 transition-opacity">
+          <img src="assets/ufv.png" alt="Logo Organização" class="h-8 w-auto object-contain" />
+        </a>
+      </div>
+
+      <div class="mt-2">
+        <span class="text-xs font-bold uppercase tracking-wider block mb-2 text-base-content/60">Apoio:</span>
+        <div class="flex flex-wrap gap-3">
+          <a href="https://www.sbc.org.br/" class="inline-block hover:opacity-80 transition-opacity">
+            <img src="assets/logo_sbc.png" alt="Apoio 1" class="h-8 w-auto object-contain"" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-6 md:items-end">
+      <div class="w-full max-w-sm md:text-right">
+        <h6 class="text-xs font-bold uppercase tracking-wider mb-2 text-base-content/60">Contato:</h6>
+        <div class="p-4 rounded-box text-sm text-base-content/80 shadow-inner">
+        <p>E-mail: wsis@ufv.br</p>
+        <p>(34) 3855-9300</p>
+        <p> </p>
+        <p>Universidade Federal de Viçosa - Campus Rio Paranaíba</p>
+        <p>Rodovia BR 230, Km 7, Rio Paranaíba - MG</p>
+        <p>CEP: 3810-000</p>
+        </div>
+      </div>
+
+      <div class="flex gap-4 items-center">
+        <a href="https://www.instagram.com/ufv.crp" class="link link-hover text-base-content/70 hover:text-primary transition-colors" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+          </svg>
+        </a>
+
+        <a href="https://www.youtube.com/@UFVBROficial" class="link link-hover text-base-content/70 hover:text-primary transition-colors" aria-label="YouTube">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2.5 12a9 9 0 0 1 9-9h1a9 9 0 0 1 9 9v0a9 9 0 0 1-9 9h-1a9 9 0 0 1-9-9z"/>
+            <polygon points="10 8 16 12 10 16 10 8" fill="currentColor"/>
+          </svg>
+        </a>
+
+        <a href="https://www.ufv.br/" class="link link-hover text-base-content/70 hover:text-primary transition-colors" aria-label="Website">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+            <path d="M2 12h20"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="border-t border-base-content/10 pt-6 text-center">
+    <p class="text-xs text-base-content/50">
+      &copy; 2026 Todos os direitos reservados.
+    </p>
+  </div>
+</footer>
+
+</div>
+<script>
+  lucide.createIcons();
+</script>
+
+</body>
+
+</html>

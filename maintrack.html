@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en"  data-theme="wsis";>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Track</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+    <link href="theme.css" rel="stylesheet">
+
+</head>
+
+
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<body>
+
+<style>
+html {
+    scroll-behavior: smooth;
+}
+</style>
+
+
+<div class="navbar bg-wsis shadow-sm sticky top-0 z-75">
+    <div class="flex-1">
+        <a href="/" class="btn btn-ghost p-2">
+            <img 
+                src="./assets/logo.png" 
+                alt="Logo"
+                class="h-10 w-auto"
+            >
+        </a>
+    </div>
+
+    <!-- menu desktop -->
+    <div class="hidden lg:flex flex-none">
+        <ul class="menu menu-horizontal px-1">
+            <li>
+                <a href="index.html" class="text-secondary">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#" class="btn btn-primary btn-sm">
+                    Se Inscrever
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- menu mobile -->
+    <div class="dropdown dropdown-end lg:hidden">
+        <div tabindex="0" role="button" class="btn btn-ghost">
+            <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                class="h-6 w-6" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor">
+                <path 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    stroke-width="2" 
+                    d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </div>
+
+        <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-50 mt-3 w-64 p-2 shadow">
+            <li>
+                <a href="index.html" class="text-secondary">
+                  Home
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="btn btn-secondary btn-sm">
+                    Se Inscrever
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="max-w-4xl mx-auto p-6 bg-base-100 text-base-content min-h-screen my-8 shadow-xl rounded-2xl border border-base-200">
+  
+  <header class="border-b border-base-300 pb-6 mb-8">
+    <h1 class="text-3xl font-extrabold tracking-tight text-primary mb-6">Trilha Principal (Main Track)</h1>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="flex items-center gap-3 bg-base-200/50 p-3 rounded-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" x2="12" y1="3" y2="15"/></svg>
+        <span class="font-medium">Prazo para submissão dos trabalhos: <strong class="text-secondary">26 de Julho de 2026</strong></span>
+      </div>
+      
+      <div class="flex items-center gap-3 bg-base-200/50 p-3 rounded-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+        <span class="font-medium">Divulgação dos Resultados: <strong class="text-secondary">15 de Agosto de 2026</strong></span>
+      </div>
+
+      <div class="flex items-center gap-3 bg-base-200/50 p-3 rounded-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+        <span class="font-medium">Envio das Versões Finais: <strong class="text-secondary">30 de Agosto de 2026</strong></span>
+      </div>
+
+      <div class="flex items-center gap-3 bg-base-200/50 p-3 rounded-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <span class="font-medium">Prazo de inscrição dos autores: <strong class="text-secondary">13 de Setembro de 2026</strong></span>
+      </div>
+
+      <div class="flex items-center gap-3 bg-base-200/50 p-3 rounded-lg md:col-span-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+        <span class="font-medium">Data do Evento: <strong class="text-secondary">5, 6 e 7 de Outubro de 2026</strong></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Tópicos de Interesse -->
+  <section class="mb-8">
+    <h2 class="text-xl font-bold mb-4 flex items-center gap-2 text-base-content/90">
+      Tópicos de Interesse <span class="text-sm font-normal text-base-content/60">(mas não limitado a)</span>
+    </h2>
+    <ul class="space-y-3 pl-2">
+      <li class="flex items-start gap-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-success mt-1 shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+<span>Sistemas de Informação aplicados a domínios diversos (saúde, agricultura, educação, governo, etc.);
+</span>
+      </li>
+      <li class="flex items-start gap-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-success mt-1 shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+<span>Gestão e análise de dados, informação e conhecimento;
+</span>
+      </li>
+      <li class="flex items-start gap-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-success mt-1 shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+<span>Modelagem, desenvolvimento, avaliação e engenharia de sistemas;
+</span>
+      </li>
+      <li class="flex items-start gap-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-success mt-1 shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+<span>Inteligência Artificial;
+</span>
+      </li>
+      <li class="flex items-start gap-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-success mt-1 shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+<span>Redes de computadores, computação distribuída e comunicação em sistemas inteligentes;
+</span>
+      </li>
+      <li class="flex items-start gap-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-success mt-1 shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+<span>Aspectos sociais, éticos, legais e culturais em tecnologias da informação;
+</span>
+      </li>
+      <li class="flex items-start gap-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-success mt-1 shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+<span>Ecossistemas digitais, ambientes inteligentes e computação pervasiva;
+</span>
+      </li>
+      <li class="flex items-start gap-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-success mt-1 shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+<span>Engenharia de software: processos, ferramentas, arquitetura e qualidade de sistemas.
+</span>
+      </li>
+    </ul>
+  </section>
+
+ <div class="space-y-10">
+
+  <!-- Instruções para Submissão -->
+  <section class="rounded-xl bg-base-200/40 p-6">
+    <h2 class="mb-5 text-2xl font-bold">
+      Instruções para a Submissão
+    </h2>
+
+    <ul class="space-y-4 list-disc list-inside">
+
+      <li>
+        As submissões devem ser <strong>originais</strong>.
+      </li>
+
+      <li>
+        Os artigos podem ser submetidos em
+        <strong>português</strong> ou <strong>inglês</strong>.
+      </li>
+
+      <li>
+        Categorias aceitas:
+        <ul class="mt-2 ml-6 space-y-1 list-disc text-sm opacity-80">
+          <li><strong>Artigos completos:</strong> entre 8 e 10 páginas (incluindo referências).</li>
+          <li><strong>Artigos curtos:</strong> 4 a 5 páginas, com uma página adicional para Agradecimentos e Referências.</li>
+        </ul>
+      </li>
+
+      <li>
+        Os artigos devem ser enviados em formato
+        <strong>PDF</strong>, utilizando o template da SBC. (<a href="https://www.sbc.org.br/documentosinstitucionais/#publicacoes" class="text-primary" > link</a>).
+      </li>
+
+      <li>
+        A submissão será realizada exclusivamente através do Sistema JEMS da SBC (<a href="https://jems3.sbc.org.br/events/672" class="text-primary">link</a>).
+
+      </li>
+
+    </ul>
+  </section>
+
+  <!-- Inscrição -->
+  <section>
+    <h2 class="mb-5 text-2xl font-bold">
+      Inscrição e Participação no Evento
+    </h2>
+
+    <ul class="space-y-3 list-disc list-inside">
+
+      <li>
+        A inscrição pagante de pelo menos um autor de cada artigo aceito é obrigatória para publicação nos Anais.
+      </li>
+
+      <li>
+        Autores com mais de um artigo aprovado podem realizar apenas uma inscrição, acrescida da taxa de publicação extra por artigo adicional.
+      </li>
+
+      <li>
+        Os organizadores se reservam o direito de não incluir nos Anais os trabalhos que não forem apresentados durante o evento.
+      </li>
+
+      <li>
+        Haverá participação online para autores externos à <strong>UFV-CRP</strong>.
+      </li>
+
+    </ul>
+  </section>
+
+  <!-- Processo de Revisão -->
+  <section>
+    <h2 class="mb-5 text-2xl font-bold">
+      Processo de Revisão
+    </h2>
+
+    <p class="mb-4 leading-relaxed opacity-80">
+      Será utilizado o método de revisão duplamente cego (<em>double blind review</em>). Os manuscritos devem ser submetidos sem nomes ou afiliações dos autores. Trabalhos que não seguirem esse procedimento serão rejeitados.
+    </p>
+
+    <p class="mb-3 font-semibold">
+      Para garantir o anonimato da submissão:
+    </p>
+
+    <ul class="space-y-2 list-disc list-inside">
+
+      <li>
+        Remova nomes e afiliações dos autores ou utilize
+        <code>&lt;omitido para revisão&gt;</code>.
+      </li>
+
+      <li>
+        Caso seja necessário citar trabalhos próprios, utilize
+        <code>&lt;omitido para revisão&gt;</code>.
+      </li>
+
+      <li>
+        Evite excesso de autocitações.
+      </li>
+
+      <li>
+        Evite expressões como "Em trabalhos anteriores, nós...".
+      </li>
+
+      <li>
+        Omita a seção de agradecimentos na versão submetida.
+      </li>
+
+      <li>
+          Para mais informações sobre processo de revisão/avaliação anônima, recomendamos a leitura de: Moro, M. M., 2021. Guia Rápido para Submissão Anônima: proteja sua identidade corretamente. ISSN: 2175-9235. (<a href="https://horizontes.sbc.org.br/index.php/2021/01/guia-rapido-para-submissao-anonima-proteja-sua-identidade-corretamente/" class="text-primary">link</a>).
+
+      </li>
+    </ul>
+  </section>
+
+  <!-- Publicação -->
+  <section>
+    <h2 class="mb-5 text-2xl font-bold">
+      Publicação
+    </h2>
+
+    <p class="leading-relaxed opacity-80">
+      Os artigos aceitos serão publicados na SBC Open Lib, na série
+      <strong> Anais do Workshop de Sistemas de Informação (WSIS), </strong>, disponível em
+      <strong><a href="https://sol.sbc.org.br/index.php/wsis" class="text-primary">https://sol.sbc.org.br/index.php/wsis</a></strong>. Todos os artigos receberão DOI.
+    </p>
+  </section>
+
+  <!-- Premiação -->
+  <section>
+    <h2 class="mb-5 text-2xl font-bold">
+      Premiação
+    </h2>
+
+    <p class="leading-relaxed opacity-80">
+      Ao final do <strong>WSIS 2026</strong>, os melhores trabalhos serão anunciados e receberão certificados e menções honrosas.
+    </p>
+  </section>
+
+  <div class="flex justify-center border-t border-base-300 pt-8">
+                <a href="https://jems3.sbc.org.br/?returnUrl=%2Fevents%2F672"" class="btn btn-primary btn-sm">submeta</a>
+  </div>
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+<!-- footer -->
+<footer class="text-base-content pt-10 pb-6 px-6">
+  <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start mb-10">
+    
+    <div class="flex flex-col gap-4">
+      <img src="assets/logotipo.png" alt="logotipo" class="h-12 w-auto object-contain self-start" />
+      
+      <p class="text-sm text-base-content/70 max-w-sm">
+        XVII Workshop de Sistemas de Informação
+      </p>
+
+      <div class="mt-2">
+        <span class="text-xs font-bold uppercase tracking-wider block mb-2 text-base-content/60">Organização:</span>
+        <a href="https://www.ufv.br/" class="inline-block hover:opacity-80 transition-opacity">
+          <img src="assets/ufv.png" alt="Logo Organização" class="h-8 w-auto object-contain" />
+        </a>
+      </div>
+
+      <div class="mt-2">
+        <span class="text-xs font-bold uppercase tracking-wider block mb-2 text-base-content/60">Apoio:</span>
+        <div class="flex flex-wrap gap-3">
+          <a href="https://www.sbc.org.br/" class="inline-block hover:opacity-80 transition-opacity">
+            <img src="assets/logo_sbc.png" alt="Apoio 1" class="h-8 w-auto object-contain"" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-6 md:items-end">
+      <div class="w-full max-w-sm md:text-right">
+        <h6 class="text-xs font-bold uppercase tracking-wider mb-2 text-base-content/60">Contato:</h6>
+        <div class="p-4 rounded-box text-sm text-base-content/80 shadow-inner">
+        <p>E-mail: wsis@ufv.br</p>
+        <p>(34) 3855-9300</p>
+        <p> </p>
+        <p>Universidade Federal de Viçosa - Campus Rio Paranaíba</p>
+        <p>Rodovia BR 230, Km 7, Rio Paranaíba - MG</p>
+        <p>CEP: 3810-000</p>
+        </div>
+      </div>
+
+      <div class="flex gap-4 items-center">
+        <a href="https://www.instagram.com/ufv.crp" class="link link-hover text-base-content/70 hover:text-primary transition-colors" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+          </svg>
+        </a>
+
+        <a href="https://www.youtube.com/@UFVBROficial" class="link link-hover text-base-content/70 hover:text-primary transition-colors" aria-label="YouTube">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2.5 12a9 9 0 0 1 9-9h1a9 9 0 0 1 9 9v0a9 9 0 0 1-9 9h-1a9 9 0 0 1-9-9z"/>
+            <polygon points="10 8 16 12 10 16 10 8" fill="currentColor"/>
+          </svg>
+        </a>
+
+        <a href="https://www.ufv.br/" class="link link-hover text-base-content/70 hover:text-primary transition-colors" aria-label="Website">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+            <path d="M2 12h20"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="border-t border-base-content/10 pt-6 text-center">
+    <p class="text-xs text-base-content/50">
+      &copy; 2026 Todos os direitos reservados.
+    </p>
+  </div>
+</footer>
+
+
+</body>
+
+</html>
