@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="wsis">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maratona de Programação | WSIS</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/daisyui@5"
+        rel="stylesheet"
+        type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+        href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css"
+        rel="stylesheet"
+        type="text/css"
+    />
+    <link href="theme.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body class="min-h-screen bg-wsis text-base-content">
+
+
+<div class="navbar bg-wsis shadow-sm sticky top-0 z-75">
+    <div class="flex-1">
+        <a href="/" class="btn btn-ghost p-2">
+            <img 
+                src="./assets/logo.png" 
+                alt="Logo"
+                class="h-10 w-auto"
+            >
+        </a>
+    </div>
+
+    <!-- menu desktop -->
+    <div class="hidden lg:flex flex-none">
+        <ul class="menu menu-horizontal px-1">
+            <li>
+                <a href="index.html" class="btn btn-primary btn-sm">
+                    Home
+                </a>
+            </li>
+            <!-- <li>
+                <a href="#" class="btn btn-primary btn-sm">
+                    Se Inscrever
+                </a>
+            </li> -->
+        </ul>
+    </div>
+
+    <!-- menu mobile -->
+    <div class="dropdown dropdown-end lg:hidden">
+        <div tabindex="0" role="button" class="btn btn-ghost">
+            <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                class="h-6 w-6" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor">
+                <path 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    stroke-width="2" 
+                    d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </div>
+
+        <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-50 mt-3 w-64 p-2 shadow">
+            <li>
+                <a href="index.html" class="text-secondary">
+                  Home
+                </a>
+            </li>
+
+            <!-- <li>
+                <a href="#" class="btn btn-secondary btn-sm">
+                    Se Inscrever
+                </a>
+            </li> -->
+        </ul>
+    </div>
+</div>
+
+
+
+
+<section class="bg-wsis-rl py-20 px-6 lg:px-12">
+    <div class="max-w-5xl mx-auto">
+        <div class="mb-14">
+        <h1 class="text-4xl lg:text-5xl font-bold mt-4 mb-6">
+            Maratona de Programação
+        </h1>
+
+            <h2 class="text-3xl lg:text-4xl font-bold mb-6">
+                O que é?
+            </h2>
+
+            <div class="space-y-5 text-base-content/80 leading-relaxed">
+
+                <p>A Maratona de Programação é uma competição que reúne equipes para resolver problemas computacionais utilizando raciocínio lógico, criatividade, conhecimentos de programação e trabalho em equipe.</p>
+                <p>No Brasil, a Maratona de Programação é tradicionalmente promovida pela <a href="http://maratona.sbc.org.br/" target="_blank" rel="noopener noreferrer">Sociedade Brasileira de Computação (SBC)</a> desde 1996. A competição faz parte da tradição internacional de competições de programação, que têm entre suas principais referências as disputas promovidas pela <i>Association for Computing Machinery (ACM)</i>. </p>
+
+
+            <h2 class="text-3xl lg:text-4xl font-bold mb-6">
+                Sobre o Evento
+            </h2>
+
+                <p>
+                A Maratona de Programação do WSIS será realizada em dois dias, combinando preparação e competição.
+                </p>
+
+                <p>
+                No dia <b>05 de outubro</b>, será realizado o <b>aquecimento</b>. Essa atividade tem como objetivo apresentar o funcionamento da competição, permitir que os participantes conheçam o ambiente de disputa, testem suas estratégias e se preparem para os desafios do dia seguinte.
+                </p>
+
+                <p>
+                O aquecimento <b>não é obrigatório</b>, mas é <b>altamente recomendado para participantes que nunca participaram de uma competição de programação</b>. Durante essa atividade serão apresentadas as informações específicas sobre o funcionamento da competição e os procedimentos que deverão ser seguidos durante a prova.
+                </p>
+
+                <p>
+                No dia <b>06 de outubro</b>, acontecerá a <b>competição</b>. As equipes deverão resolver uma série de problemas computacionais durante um período limitado, buscando obter o maior número possível de soluções corretas.
+                </p>
+
+                <p>
+                Os problemas poderão ser resolvidos utilizando as linguagens de programação <b>C, C++, Java ou Python</b>.
+                </p>
+    
+
+                <h2 class="text-3xl lg:text-4xl font-bold mb-6">
+                    Quem pode Participar?
+                </h2>
+
+                <p>
+                Pode participar qualquer pessoa que esteja <b>inscrita no evento WSIS</b>. Não é necessário possuir conhecimento prévio em programação competitiva, e a participação de <b>iniciantes é fortemente incentivada</b>.
+                </p>
+
+                <p>
+                As equipes devem ser formadas previamente pelos próprios participantes e devem ser compostas por <b>3 integrantes</b>.
+                </p>
+
+                <p>
+                Não há limite para o número de equipes participantes. A participação na Maratona está condicionada à inscrição no evento WSIS e <b>não há cobrança adicional</b> para participar da competição.
+                </p>
+            
+
+                <h2 class="text-3xl lg:text-4xl font-bold mb-6">
+                    Como participar?
+                </h2>
+
+                <ul>
+                <li>Estar inscrito no evento WSIS;</li>
+                <li>Formar previamente uma equipe com <b>3 integrantes</b>;</li>
+                <li>Realizar a inscrição da equipe até o prazo estabelecido;</li>
+                <li>Participar do aquecimento, especialmente se você nunca participou de uma competição de programação;</li>
+                <li>Comparecer à competição no dia 06/10/2026.</li>
+                </ul>
+
+
+            
+                <h2 class="text-3xl lg:text-4xl font-bold mb-6">
+                    Objetivos
+                </h2>
+
+            <p>
+            Durante o tempo determinado para a competição, cada equipe deverá buscar resolver o maior número possível de problemas. A classificação considera a quantidade de problemas resolvidos e, em caso de empate, os critérios de tempo e penalidades definidos pela competição.
+            </p>
+
+<h2 class="text-3xl lg:text-4xl font-bold mb-6">
+    Benefícios
+</h2>
+<p>
+A participação na Maratona de Programação contribui para o desenvolvimento de diversas habilidades, entre elas:
+</p>
+
+<ul class="list-disc pl-6">
+<li>Raciocínio lógico e capacidade de resolução de problemas;</li>
+<li>Criatividade na busca por soluções computacionais;</li>
+<li>Conhecimento e aplicação de algoritmos e estruturas de dados;</li>
+<li>Trabalho em equipe e comunicação;</li>
+<li>Tomada de decisão sob pressão;</li>
+<li>Organização e gerenciamento do tempo.</li>
+</ul>
+
+<p>
+Além disso, serão emitidos <b>certificados para as equipes classificadas em 1º, 2º e 3º lugares</b>.
+</p>
+
+<h2 class="text-3xl lg:text-4xl font-bold mb-6">
+    Algumas dicas para a competição
+</h2>
+
+<ul class="list-disc pl-6">
+<li>Comece identificando os problemas que parecem mais fáceis para a equipe;</li>
+<li>Defina uma estratégia de divisão dos problemas entre os integrantes;</li>
+<li>Enquanto um integrante estiver programando, os demais podem analisar outros problemas e discutir possíveis soluções;</li>
+<li>Comuniquem-se constantemente e compartilhem as ideias encontradas;</li>
+<li>Gerenciem bem o tempo disponível e evitem ficar presos por muito tempo em um único problema;</li>
+<li>Leiam atentamente os enunciados e testem as soluções com diferentes casos;</li>
+<li>Mantenham a calma e a concentração durante a competição;</li>
+<li>Lembrem-se: uma boa estratégia de equipe pode ser tão importante quanto a velocidade individual de programação.</li>
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+<!-- 
+<section id="organizacao" class="w-full py-20 md:py-24">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold">
+                Organização
+            </h2>
+
+            <p class="text-lg text-base-content/70 leading-relaxed mt-4 max-w-3xl mx-auto">
+                Conheça a equipe responsável pela organização e realização do WSIS 2026.
+            </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+            <div class="group rounded-2xl overflow-hidden shadow-lg
+                        border border-base-300/50
+                        transition-all duration-300
+                        hover:-translate-y-2 hover:shadow-2xl hover:border-primary/50">
+
+                <div class="bg_card_wsis p-2">
+                    <img
+                        src="assets/profile.png"
+                        alt="Nome da Pessoa"
+                        class="w-full aspect-square object-cover rounded-xl
+                               transition-transform duration-500
+                               group-hover:scale-[1.02]"
+                    >
+                </div>
+
+                <div class="bg-base-200 px-6 py-5 text-center">
+                    <h3 class="text-xl font-bold">
+                        Nome da Pessoa
+                    </h3>
+
+                    <p class="text-base-content/60 mt-1">
+                        Organização
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="group rounded-2xl overflow-hidden shadow-lg
+                        border border-base-300/50
+                        transition-all duration-300
+                        hover:-translate-y-2 hover:shadow-2xl hover:border-primary/50">
+
+                <div class="bg_card_wsis p-2">
+                    <img
+                        src="assets/profile.png"
+                        alt="Nome da Pessoa"
+                        class="w-full aspect-square object-cover rounded-xl
+                               transition-transform duration-500
+                               group-hover:scale-[1.02]"
+                    >
+                </div>
+
+                <div class="bg-base-200 px-6 py-5 text-center">
+                    <h3 class="text-xl font-bold">
+                        Nome da Pessoa
+                    </h3>
+
+                    <p class="text-base-content/60 mt-1">
+                        Organização
+                    </p>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="group rounded-2xl overflow-hidden shadow-lg
+                        border border-base-300/50
+                        transition-all duration-300
+                        hover:-translate-y-2 hover:shadow-2xl hover:border-primary/50">
+
+                <div class="bg_card_wsis p-2">
+                    <img
+                        src="assets/profile.png"
+                        alt="Nome da Pessoa"
+                        class="w-full aspect-square object-cover rounded-xl
+                               transition-transform duration-500
+                               group-hover:scale-[1.02]"
+                    >
+                </div>
+
+                <div class="bg-base-200 px-6 py-5 text-center">
+                    <h3 class="text-xl font-bold">
+                        Nome da Pessoa
+                    </h3>
+
+                    <p class="text-base-content/60 mt-1">
+                        Organização
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+ -->
+
+
+
+
+
+<section id="organizacao" class="w-full py-16">
+    <div class="container mx-auto px-4">
+
+        <div class="text-center mb-10">
+            <h2 class="text-4xl font-bold">
+                Coordenadores
+            </h2>
+
+            <p class="text-lg text-base-content/70 mt-3">
+                A Maratona de programação do WSIS 2026 será realizada sob a coordenação dos professores:
+            </p>
+        </div>
+
+        <div class="max-w-3xl mx-auto space-y-3">
+
+            <a
+                href="http://lattes.cnpq.br/6750568277684410"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center justify-between
+                       rounded-xl border border-base-300
+                       bg-wsis px-5 py-4
+                       hover:border-primary/50 hover:shadow-md
+                       transition-all duration-200"
+            >
+                <span class="font-semibold">
+                    Prof. Dr. Alan Diêgo Aurélio Carneiro
+                </span>
+
+                <i
+                    data-lucide="external-link"
+                    class="w-4 h-4 text-primary"
+                ></i>
+            </a>
+
+            <a
+                href="http://lattes.cnpq.br/4348087237433332"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center justify-between
+                       rounded-xl border border-base-300
+                       bg-wsis px-5 py-4
+                       hover:border-primary/50 hover:shadow-md
+                       transition-all duration-200"
+            >
+                <span class="font-semibold">
+                    Prof. Dr. José Maurício Costa
+                </span>
+
+                <i
+                    data-lucide="external-link"
+                    class="w-4 h-4 text-primary"
+                ></i>
+            </a>
+
+            <a
+                href="http://lattes.cnpq.br/7358382459634658"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center justify-between
+                       rounded-xl border border-base-300
+                       bg-wsis px-5 py-4
+                       hover:border-primary/50 hover:shadow-md
+                       transition-all duration-200"
+            >
+                <span class="font-semibold">
+                    Prof. Dr. Pedro Henrique Aparecido Damaso de Melo
+                </span>
+
+                <i
+                    data-lucide="external-link"
+                    class="w-4 h-4 text-primary"
+                ></i>
+            </a>
+
+        </div>
+    </div>
+
+
+</section>
+
+
+                <div class="max-w-4xl mx-auto text-center">
+
+
+                <p class="text-base-content/70 max-w-2xl mx-auto mb-8">
+
+
+                </p>
+
+                <a
+                href="https://forms.gle/5hSkSuXXNaHd4NXx5"
+                class="btn btn-primary"
+                >
+                Faça sua Inscrição
+                </a>
+
+             </div>
+
+
+    </div>
+</section>
+
+
+
+
+
+
+
+<section id="galeria" class="bg-wsis-rl w-full py-20">
+  <div class="container mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold">
+        Galeria
+      </h2>
+
+      <p class="text-xl text-content-base/70 leading-relaxed mt-4 max-w-3xl mx-auto">
+        Confira alguns registros das edições anteriores da Maratona de Programação:
+    </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="overflow-hidden rounded-box aspect-[16/10]">
+        <img
+          src="assets/maratona/1.jpg"
+          alt="Galeria 1"
+          class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+
+      <div class="overflow-hidden rounded-box aspect-[16/10]">
+        <img
+          src="assets/maratona/2.jpg"
+          alt="Galeria 2"
+          class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+
+      <div class="overflow-hidden rounded-box aspect-[16/10]">
+        <img
+          src="assets/maratona/3.jpg"
+          alt="Galeria 3"
+          class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+
+      <div class="overflow-hidden rounded-box aspect-[16/10]">
+        <img
+          src="assets/maratona/4.jpg"
+          alt="Galeria 4"
+          class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+
+      <div class="overflow-hidden rounded-box aspect-[16/10]">
+        <img
+          src="assets/maratona/5.jpg"
+          alt="Galeria 5"
+          class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+
+      <div class="overflow-hidden rounded-box aspect-[16/10]">
+        <img
+          src="assets/maratona/6.jpg"
+          alt="Galeria 6"
+          class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+
+      <div class="overflow-hidden rounded-box aspect-[16/10]">
+        <img
+          src="assets/maratona/7.jpg"
+          alt="Galeria 7"
+          class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+
+      <div class="overflow-hidden rounded-box aspect-[16/10]">
+        <img
+          src="assets/maratona/8.jpg"
+          alt="Galeria 8"
+          class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+
+      <div class="overflow-hidden rounded-box aspect-[16/10]">
+        <img
+          src="assets/maratona/9.jpg"
+          alt="Galeria 9"
+          class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="text-base-content pt-10 pb-6 px-6 bg-wsis">
+  <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start mb-10">
+    
+    <div class="flex flex-col gap-4">
+      <img src="assets/logotipo.png" alt="logotipo" class="h-12 w-auto object-contain self-start" />
+      
+      <p class="text-sm text-base-content/70 max-w-sm">
+        XVII Workshop de Sistemas de Informação
+      </p>
+
+      <div class="mt-2">
+        <span class="text-xs font-bold uppercase tracking-wider block mb-2 text-base-content/60">Organização:</span>
+        <a href="https://www.ufv.br/" class="inline-block hover:opacity-80 transition-opacity">
+          <img src="assets/ufv.png" alt="Logo Organização" class="h-8 md:h-16 w-auto object-contain" />
+        </a>
+      </div>
+
+      <div class="mt-2">
+        <span class="text-xs font-bold uppercase tracking-wider block mb-2 text-base-content/60">Apoio:</span>
+        <div class="flex flex-wrap gap-3">
+          <a href="https://www.sbc.org.br/" class="inline-block hover:opacity-80 transition-opacity">
+            <img src="assets/logo_sbc.png" alt="Apoio 1" class="h-8 md:h-16 w-auto object-contain" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-6 md:items-end">
+      <div class="w-full max-w-sm md:text-right">
+        <h6 class="text-xs font-bold uppercase tracking-wider mb-2 text-base-content/60">Contato:</h6>
+        <div class="p-4 rounded-box text-sm text-base-content/80 shadow-inner">
+        <p>E-mail: wsis@ufv.br</p>
+        <p>(34) 3855-9300</p>
+        <p> </p>
+        <p>Universidade Federal de Viçosa - Campus Rio Paranaíba</p>
+        <p>Rodovia BR 230, Km 7, Rio Paranaíba - MG</p>
+        <p>CEP: 3810-000</p>
+        </div>
+      </div>
+
+      <div class="flex gap-4 items-center">
+        <a href="https://www.instagram.com/ufv.crp" class="link link-hover text-base-content/70 hover:text-primary transition-colors" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+          </svg>
+        </a>
+
+        <a href="https://www.youtube.com/@UFVBROficial" class="link link-hover text-base-content/70 hover:text-primary transition-colors" aria-label="YouTube">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2.5 12a9 9 0 0 1 9-9h1a9 9 0 0 1 9 9v0a9 9 0 0 1-9 9h-1a9 9 0 0 1-9-9z"/>
+            <polygon points="10 8 16 12 10 16 10 8" fill="currentColor"/>
+          </svg>
+        </a>
+
+        <a href="https://www.ufv.br/" class="link link-hover text-base-content/70 hover:text-primary transition-colors" aria-label="Website">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+            <path d="M2 12h20"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="border-t border-base-content/10 pt-6 text-center">
+    <p class="text-xs text-base-content/50">
+      &copy; 2026 Todos os direitos reservados.
+    </p>
+  </div>
+</footer>
+<script>
+  lucide.createIcons();
+</script>
+
+</body>
+</html>
